@@ -13,6 +13,7 @@ This module provides some of the core modules of node.js in tabris.js, specifica
 * `punycode` - works fully
 * `path` - works fully
 * `constants` - works fully
+* `events` - works fully
 * `process` - works within limits, specifically `process.nextTick` is implemented.
 * `timers` - works within limits: setTimeout ignores additional arguments for callback.
 * `console` - provides the additional methods `dir`, `time`, `timeEnd`, `trace` and `assert`

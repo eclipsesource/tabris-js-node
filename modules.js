@@ -39,6 +39,7 @@ var nonGlobals = {
   console: "console-browserify",
   punycode: "./node_lib/punycode.js",
   path: "./node_lib/path.js",
+  events: "./node_lib/events.js",
   constants: "constants-browserify"
 };
 
