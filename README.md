@@ -18,6 +18,11 @@ This module provides some of the core modules of node.js in tabris.js, specifica
 * `timers` - works within limits: setTimeout ignores additional arguments for callback.
 * `console` - provides the additional methods `dir`, `time`, `timeEnd`, `trace` and `assert`
 
+For supported node modules to be available at runtime, this module has to be required first, i.e.:
+
+    require("tabris-js-node");
+    var path = require("path");
+
 ## License
 
 * Code copied from [node](https://github.com/joyent/node) is published under the MIT license.
